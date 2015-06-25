@@ -1,0 +1,152 @@
+FPoly
+R354 Lists <> <> lib
+ind 905 <> boollist
+constr 928 <> bool_nil
+constr 952 <> bool_cons
+R939 Poly <> boollist ind
+R984 Poly <> boollist ind
+R972 Poly <> boollist ind
+R964 Basics <> bool ind
+ind 1478 <> list
+constr 1506 <> nil
+constr 1523 <> cons
+R1512 Poly <> list ind
+R1545 Poly <> list ind
+R1535 Poly <> list ind
+R2741 Poly <> nil constr
+R2793 Poly <> cons constr
+R3204 Poly <> cons constr
+R3216 Poly <> cons constr
+R3228 Poly <> nil constr
+R3232 Coq.Init.Datatypes <> nat ind
+R3221 Coq.Init.Datatypes <> nat ind
+R3209 Coq.Init.Datatypes <> nat ind
+def 3627 <> length
+R3646 Poly <> list ind
+R3656 Coq.Init.Datatypes <> nat ind
+R3682 Poly <> nil constr
+R3700 Poly <> cons constr
+R3712 Coq.Init.Datatypes <> S constr
+R3715 Poly <> length def
+def 4259 <> test_length1
+R4324:4326 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4278 Poly <> length def
+R4290 Poly <> cons constr
+R4302 Poly <> cons constr
+R4314 Poly <> nil constr
+R4318 Coq.Init.Datatypes <> nat ind
+R4307 Coq.Init.Datatypes <> nat ind
+R4295 Coq.Init.Datatypes <> nat ind
+R4285 Coq.Init.Datatypes <> nat ind
+def 4483 <> test_length2
+R4541:4543 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4502 Poly <> length def
+R4515 Poly <> cons constr
+R4531 Poly <> nil constr
+R4535 Basics <> bool ind
+R4525 Basics <> true constr
+R4520 Basics <> bool ind
+R4509 Basics <> bool ind
+def 4720 <> app
+R4744 Poly <> list ind
+R4771 Poly <> list ind
+R4802 Poly <> nil constr
+R4821 Poly <> cons constr
+R4833 Poly <> cons constr
+R4843 Poly <> app def
+def 4872 <> snoc
+R4889 Poly <> list ind
+R4906 Poly <> list ind
+R4936 Poly <> nil constr
+R4948 Poly <> cons constr
+R4958 Poly <> nil constr
+R4969 Poly <> cons constr
+R4981 Poly <> cons constr
+R4991 Poly <> snoc def
+def 5020 <> rev
+R5036 Poly <> list ind
+R5046 Poly <> list ind
+R5075 Poly <> nil constr
+R5087 Poly <> nil constr
+R5097 Poly <> cons constr
+R5109 Poly <> snoc def
+R5117 Poly <> rev def
+def 5146 <> test_rev1
+R5205:5210 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5244:5244 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5162 Poly <> rev def
+R5171 Poly <> cons constr
+R5183 Poly <> cons constr
+R5195 Poly <> nil constr
+R5199 Coq.Init.Datatypes <> nat ind
+R5188 Coq.Init.Datatypes <> nat ind
+R5176 Coq.Init.Datatypes <> nat ind
+R5166 Coq.Init.Datatypes <> nat ind
+R5211 Poly <> cons constr
+R5223 Poly <> cons constr
+R5235 Poly <> nil constr
+R5239 Coq.Init.Datatypes <> nat ind
+R5228 Coq.Init.Datatypes <> nat ind
+R5216 Coq.Init.Datatypes <> nat ind
+def 5282 <> test_rev2
+R5314:5316 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5295 Poly <> rev def
+R5305 Poly <> nil constr
+R5309 Basics <> bool ind
+R5299 Basics <> bool ind
+R5317 Poly <> nil constr
+R5321 Basics <> bool ind
+mod 5361 <> MumbleBaz
+ind 5492 MumbleBaz mumble
+constr 5513 MumbleBaz a
+constr 5528 MumbleBaz b
+constr 5560 MumbleBaz c
+R5517 Poly <> mumble ind
+R5549 Poly <> mumble ind
+R5542 Coq.Init.Datatypes <> nat ind
+R5532 Poly <> mumble ind
+R5564 Poly <> mumble ind
+ind 5582 MumbleBaz grumble
+constr 5613 MumbleBaz d
+constr 5641 MumbleBaz e
+R5627 Poly <> grumble ind
+R5617 Poly MumbleBaz mumble ind
+R5650 Poly <> grumble ind
+ind 6053 MumbleBaz baz
+constr 6072 MumbleBaz x
+constr 6092 MumbleBaz y
+R6083 Poly <> baz ind
+R6076 Poly <> baz ind
+R6111 Poly <> baz ind
+R6103 Basics <> bool ind
+R6096 Poly <> baz ind
+R6205 Poly <> <> mod
+def 6476 <> app'
+R6491 Poly <> list ind
+R6521 Poly <> nil constr
+R6540 Poly <> cons constr
+R6552 Poly <> cons constr
+R6562 Poly <> app' def
+R6662 Poly <> app' def
+R6729 Poly <> app def
+def 9376 <> length'
+R9396 Poly <> list ind
+R9406 Coq.Init.Datatypes <> nat ind
+R9432 Poly <> nil constr
+R9450 Poly <> cons constr
+R9462 Coq.Init.Datatypes <> S constr
+R9465 Poly <> length' def
+def 9760 <> list123
+R9773 Poly <> cons constr
+R9785 Poly <> cons constr
+R9797 Poly <> cons constr
+R9809 Poly <> nil constr
+R9813 Coq.Init.Datatypes <> nat ind
+R9802 Coq.Init.Datatypes <> nat ind
+R9790 Coq.Init.Datatypes <> nat ind
+R9778 Coq.Init.Datatypes <> nat ind
+def 9889 <> list123'
+R9901 Poly <> cons constr
+R9911 Poly <> cons constr
+R9921 Poly <> cons constr
+R9931 Poly <> nil constr
